@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(197, 173, 173);
+}
+img{
+    border-radius: 50%;
+     position: absolute;
+    top: 8px;
+    right: 16px;
+  
+}
+
+h1{
+    font-size: 70px;
+    color: rgb(240, 14, 14);
+    font-family: 'algerian';
+}
+
+p{
+    font-size: 30px;
+    color:rgb(109, 3, 23);
+    font-family: 'algerian';
+}
+
+#grad {
+    background-image: linear-gradient(rgb(254, 107, 107), rgb(246, 111, 111), rgb(230, 156, 171),rgb(244, 206, 206), rgb(241, 238, 238));
+    color: white;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .right {
+    right: 0;
+    background-color: red;
+  }
